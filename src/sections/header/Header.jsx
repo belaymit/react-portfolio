@@ -1,10 +1,10 @@
 import React from 'react';
-import headerImg from '../../assets/header-portfolio.jpg';
+import headerImg from '../../assets/my-profile.jpg';
 import headerSocial from './headerSocial';
 import './header.css';
 
 const Header = () => (
-  <header id="header">
+  <header id="header" className="header">
     <div className="container header-container">
       <div className="header-profile">
         <img src={headerImg} alt="my profile" />
@@ -16,8 +16,8 @@ const Header = () => (
         dolore cupiditate voluptatum tempore.
       </p>
       <div className="header-cta">
-        <a href="#contacts"> Let Us Talk</a>
-        <a href="#portfolio">My Work</a>
+        <a href="#contacts" className="btn primary"> Let Us Talk</a>
+        <a href="#portfolio" className="btn light">My Work</a>
       </div>
       <div className="header-socials">
         {
