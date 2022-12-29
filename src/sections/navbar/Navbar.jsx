@@ -17,7 +17,7 @@ const Navbar = () => (
           </li>
         ))}
       </ul>
-      <button type="button" id="them-icon">
+      <button type="button" id="theme-icon">
         <IoIosColorFilter />
       </button>
     </div>
