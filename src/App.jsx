@@ -9,6 +9,7 @@ import FAQs from './sections/faqs/FAQs';
 import Contact from './sections/contacts/Contacts';
 import Footer from './sections/footer/Footer';
 import FloatingNav from './sections/floating-nav/FloatingNav';
+import Experience from './sections/experience/Experience';
 
 const App = () => (
   <main>
@@ -16,6 +17,7 @@ const App = () => (
     <Header />
     <About />
     <Services />
+    <Experience />
     <Portfolio />
     <Testimonials />
     <FAQs />
