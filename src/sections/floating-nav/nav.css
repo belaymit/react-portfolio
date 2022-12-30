@@ -1,5 +1,5 @@
-section.floating-nav {
-  background: rgba(0, 0, 0, 0.3);
+.floating-nav {
+  background: transparent;
   width: max-content;
   padding: 0.7rem 1.7rem;
   z-index: 2;
@@ -13,15 +13,16 @@ section.floating-nav {
   backdrop-filter: blur(15px);
 }
 
-section.floating-nav a {
-  background: rgb(42, 30, 51);
+.floating-nav a {
+  background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;
-  color: var(--color-light);
-  font-size: 1.1rem;
+  color: black;
+  font-size: 1.3rem;
 }
 
 .floating-nav a:hover {
-  background: rgba(3, 29, 51, 0.3);
+  background: rgba(26, 27, 27, 0.3);
+  color: aquamarine;
 }
