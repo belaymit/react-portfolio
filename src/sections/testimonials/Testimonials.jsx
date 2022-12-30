@@ -1,31 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from 'react-icons/io';
 import testimonialData from './testimonialsData';
+import Card from '../../components/UI/Card';
 import './testimonials.css';
 
-const Testimonials = () => (
-  <section id="testimonials" className="testimonials">
-    <h5 className="review-title">Review from Reviewers</h5>
-    <h2>Testimonials</h2>
-    <div className="container testimonial-container">
-      {
-        testimonialData.map(({
-          avatar, name, organization, review,
-        }, index) => (
-          // eslint-disable-next-line react/jsx-key, react/no-array-index-key
-          <article className="testimonial" key={index}>
-            <div className="reviewer-avatar">
-              <img src={avatar} alt={name} />
-            </div>
-            <h5 className="reviewer-name">{name}</h5>
-            <span>{organization}</span>
-            <small className="reviewer-review">
-              {review}
-            </small>
-          </article>
-        ))
-      }
-    </div>
-  </section>
-);
+const Testimonials = () => {
+  const [index, setIndex] = useState(2);
+  const {
+    name, avatar, organization, review,
+  } = testimonialData[index];
+
+  const previousTestimonialHandler = () => {
+    setIndex((prev) => prev - 1);
+    if (index <= 0) {
+      setIndex(testimonialData.length - 1);
+    }
+  };
+  const nextTestimonialHandler = () => {
+    setIndex((prev) => prev + 1);
+    if (index >= testimonialData.length - 1) {
+      setIndex(0);
+    }
+  };
+  return (
+    <section id="testimonials" className="testimonials">
+      <h5 className="review-title">Review from Reviewers</h5>
+      <h2>Testimonials</h2>
+      <div className="container testimonial-container">
+        <Card className="testimonial">
+          <div className="reviewer-avatar">
+            <img src={avatar} alt={name} />
+          </div>
+          <h5 className="reviewer-name">{name}</h5>
+          <span>{organization}</span>
+          <p className="reviewer-review">{`"${review}"`}</p>
+        </Card>
+        <div className="testimonial-btn-container">
+          <button type="button" className="testimonial-btn" onClick={previousTestimonialHandler}>
+            <IoIosArrowDropleftCircle />
+          </button>
+          <button type="button" className="testimonial-btn" onClick={nextTestimonialHandler}>
+            <IoIosArrowDroprightCircle />
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default Testimonials;
