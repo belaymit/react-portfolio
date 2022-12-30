@@ -22,10 +22,6 @@
   border: 0.3px solid var(--color-primary);
 }
 
-.testimonial:hover .reviewer-avatar {
-  border: 0.4rem solid orangered;
-}
-
 .reviewer-avatar {
   width: 4rem;
   aspect-ratio: 1/1;
@@ -33,6 +29,10 @@
   border-radius: 50%;
   margin: 0 auto 1rem;
   border: 0.4rem solid var(--color-primary);
+}
+
+.testimonial:hover .reviewer-avatar {
+  border: 0.4rem solid orangered;
 }
 
 .reviewer-review {
@@ -55,8 +55,6 @@
 .testimonial-btn {
   background: transparent;
   cursor: pointer;
-}
-.testimonial-btn {
   fill: var(--color-primary);
   font-size: 1.9rem;
   width: 3rem;
@@ -69,10 +67,12 @@
     width: 65%;
   }
 }
+
 @media screen and (max-width: 600px) {
   .container.testimonial-container {
     width: var(--container-width-md);
   }
+
   .reviewer-review {
     width: var(--container-width-md);
   }
