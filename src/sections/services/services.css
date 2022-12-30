@@ -24,6 +24,7 @@
   background: var(--color-light);
   color: var(--color-primary);
 }
+
 .service h4 {
   margin-bottom: 0.7rem;
 }
@@ -39,6 +40,7 @@
     grid-template-columns: 1fr;
     gap: 1.2rem;
   }
+
   .card.service {
     gap: 1.2rem;
   }
