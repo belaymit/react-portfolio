@@ -1,11 +1,8 @@
-import Alan from '../../assets/Alan-Turing.jfif';
-import Ariel from '../../assets/Ariel-Camus.jfif';
-import Tim from '../../assets/Time-Berners-Lee.jfif';
-import Surgy from '../../assets/Surgy-Brin.jfif';
-
 const testimonialData = [
   {
-    avatar: Alan,
+    index: 1,
+    // eslint-disable-next-line global-require
+    avatar: require('../../assets/Alan-Turing.jfif'),
     name: 'Allan Turing',
     organization: 'Father of AI',
     review:
@@ -13,7 +10,9 @@ const testimonialData = [
   },
 
   {
-    avatar: Ariel,
+    index: 2,
+    // eslint-disable-next-line global-require
+    avatar: require('../../assets/Ariel-Camus.jfif'),
     name: 'Ariel Camus',
     organization: 'Founder of Microverse',
     review:
@@ -21,7 +20,9 @@ const testimonialData = [
   },
 
   {
-    avatar: Tim,
+    index: 3,
+    // eslint-disable-next-line global-require
+    avatar: require('../../assets/Time-Berners-Lee.jfif'),
     name: 'Tim Berners-Lee',
     organization: 'Founder of WWW',
     review:
@@ -29,7 +30,9 @@ const testimonialData = [
   },
 
   {
-    avatar: Surgy,
+    index: 4,
+    // eslint-disable-next-line global-require
+    avatar: require('../../assets/Surgy-Brin.jfif'),
     name: 'Surgy Brin',
     organization: 'Founder of Google',
     review:
