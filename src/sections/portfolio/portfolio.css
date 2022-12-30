@@ -2,7 +2,7 @@
   text-align: center;
   border-bottom: 0.3px solid rgb(180, 154, 154);
   margin-bottom: 1.2rem;
-  padding: .9rem;
+  padding: 0.9rem;
 }
 
 .btn.light-btn {
@@ -48,12 +48,12 @@
   .portfolio-section-container {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
-  }  
+  }
 }
 
 @media screen and (max-width: 600px) {
   .portfolio-section-container {
     grid-template-columns: 1fr;
     gap: 1rem;
-  }  
+  }
 }
