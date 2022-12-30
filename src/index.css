@@ -175,7 +175,7 @@ img {
   }
 
   section > p {
-    /* width: var(--container-width-md); */
+    width: var(--container-width-md);
   }
 }
 
@@ -199,5 +199,9 @@ img {
 
   h1 {
     font-size: 2rem;
+  }
+
+  .faqs-wrapper {
+    grid-template-columns: 1fr;
   }
 }
