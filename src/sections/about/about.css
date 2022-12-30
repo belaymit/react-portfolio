@@ -58,6 +58,17 @@
   margin-top: 2.5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .about-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .about-right .btn {
+    margin-top: 2rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .about-left {
     display: none;
@@ -69,16 +80,5 @@
 
   .about-right h2 {
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .about-cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-
-  .about-right .btn {
-    margin-top: 2rem;
   }
 }

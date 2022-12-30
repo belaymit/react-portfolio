@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Navbar from './sections/navbar/Navbar';
 import Header from './sections/header/Header';
 import About from './sections/about/About';
@@ -13,17 +14,19 @@ import Experience from './sections/experience/Experience';
 
 const App = () => (
   <main>
-    <Navbar />
-    <Header />
-    <About />
-    <Services />
-    <Experience />
-    <Portfolio />
-    <Testimonials />
-    <FAQs />
-    <Contact />
-    <Footer />
-    <FloatingNav />
+    <BrowserRouter>
+      <Navbar />
+      <Header />
+      <About />
+      <Services />
+      <Experience />
+      <Portfolio />
+      <Testimonials />
+      <FAQs />
+      <Contact />
+      <Footer />
+      <FloatingNav />
+    </BrowserRouter>
   </main>
 );
 export default App;

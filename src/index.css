@@ -153,29 +153,6 @@ img {
   padding: 0.5rem 1.2rem;
 }
 
-@media screen and (max-width: 1024px) {
-  body {
-    font-size: 1rem;
-  }
-
-  .container {
-    width: var(--container-width-md);
-  }
-
-  section {
-    padding: 8rem 0;
-  }
-
-  section > p {
-    width: 72%;
-    margin-bottom: 3rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-}
-
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 2.4rem;
@@ -198,6 +175,29 @@ img {
   }
 
   section > p {
+    /* width: var(--container-width-md); */
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .container {
     width: var(--container-width-md);
+  }
+
+  section {
+    padding: 8rem 0;
+  }
+
+  section > p {
+    width: 72%;
+    margin-bottom: 3rem;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 }

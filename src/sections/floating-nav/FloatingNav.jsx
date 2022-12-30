@@ -6,7 +6,7 @@ import { MdModelTraining } from 'react-icons/md';
 import './nav.css';
 
 const FloatingNav = () => (
-  <section id="floating-nav" className="floating-nav">
+  <div id="floating-nav" className="floating-nav">
     <a href="/#">
       <AiOutlineHome />
     </a>
@@ -25,7 +25,7 @@ const FloatingNav = () => (
     <a href="#contacts">
       <BiMessageSquareDetail />
     </a>
-  </section>
+  </div>
 );
 
 export default FloatingNav;
