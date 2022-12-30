@@ -41,6 +41,7 @@
   align-items: center;
   gap: 1rem;
 }
+
 .experience-details svg {
   color: #d35400;
   font-size: 1.3rem;
@@ -50,6 +51,7 @@
   .portfolio-container {
     grid-template-columns: 1fr;
   }
+
   .portfolio-container > div {
     width: 80%;
     padding: 2rem;
@@ -61,7 +63,7 @@
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .portfolio-container {
     gap: 1rem;
   }
