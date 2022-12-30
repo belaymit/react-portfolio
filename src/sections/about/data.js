@@ -7,10 +7,10 @@ const data = [
     id: 1, icon: <FaAward />, title: 'Experience', desc: '1+ Years Working',
   },
   {
-    id: 1, icon: <TbBooks />, title: 'Projects', desc: '20+ Completed',
+    id: 2, icon: <TbBooks />, title: 'Projects', desc: '20+ Completed',
   },
   {
-    id: 1, icon: <BiHappyHeartEyes />, title: 'Client', desc: '20+ happy clients',
+    id: 3, icon: <BiHappyHeartEyes />, title: 'Client', desc: '20+ happy clients',
   },
 ];
 
