@@ -122,7 +122,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -200,13 +199,6 @@ You can deploy this project using:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] **Footer**
-- [ ] **Projects**
-- [ ] **Courses**
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -215,7 +207,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/belaymit/react-portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,7 +215,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project please give it a star
 
@@ -233,7 +224,6 @@ If you like this project please give it a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank https://www.youtube.com/watch?v=G-Cr00UYokU&list=RDCMUCL8l_VxCAN0jOpaLaRAm8sQ&index=5&ab_channel=EGATOR)
 
@@ -243,7 +233,6 @@ I would like to thank https://www.youtube.com/watch?v=G-Cr00UYokU&list=RDCMUCL8l
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
