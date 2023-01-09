@@ -30,8 +30,13 @@
 }
 
 .portfolio-item-img {
+  height: 20rem;
   border-radius: 1.5rem;
   overflow: hidden;
+}
+
+.portfolio-item-img img {
+  height: 100%;
 }
 
 .portfolio-item h3 {
