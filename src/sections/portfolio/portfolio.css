@@ -57,6 +57,11 @@
 }
 
 @media screen and (max-width: 600px) {
+  .portfolio-section {
+    background: red;
+    margin: 02rem;
+  }
+
   .portfolio-section-container {
     grid-template-columns: 1fr;
     gap: 1rem;

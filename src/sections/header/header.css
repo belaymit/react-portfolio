@@ -67,6 +67,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .header-container {
+    background: red;
+  }
+
   .header-profile {
     width: 14rem;
     height: 17rem;
@@ -80,5 +84,9 @@
 
   .header-socials {
     display: none;
+  }
+
+  .header-container p {
+    width: 100%;
   }
 }
