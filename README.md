@@ -1,33 +1,11 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./src/assets/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="src/assets/react-logo.jpeg" alt="logo" width="500"  height="auto" />
   <br/>
 
-  <h3><b>Microverse</b></h3>
+  <h3><b>Belay's Portfolio</b></h3>
 
 </div>
 
@@ -105,6 +83,7 @@ After you're finished please remove all the comments and instructions!
 - **Experience**
 - **Portfolio**
 - **Testimonials**
+- **Floating Nav**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +91,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -128,12 +106,13 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-> Basic understanding of the following:
-> HTM5/CSS3
-> ES6
-> webpack
-> JSX
-> ReactJS
+- install your favored text editor
+- Basic understanding of the following:
+- HTM5/CSS3
+- ES6
+- webpack
+- JSX
+- ReactJS
 
 ### Setup
 
@@ -160,8 +139,6 @@ Install this project with:
 
 To run the project, execute the following command:
 
-
-
 ```sh
   npm start
 ```
@@ -171,15 +148,12 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 
-
-
 ### Deployment
 
 You can deploy this project using:
 
-```sh
-  GitHub pages
-```
+- [GitHub pages](https://github.com/belaymit/react-portfolio/settings/pages)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,7 +199,7 @@ If you like this project please give it a star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank https://www.youtube.com/watch?v=G-Cr00UYokU&list=RDCMUCL8l_VxCAN0jOpaLaRAm8sQ&index=5&ab_channel=EGATOR)
+I would like to thank [ developer](https://www.youtube.com/watch?v=G-Cr00UYokU&list=RDCMUCL8l_VxCAN0jOpaLaRAm8sQ&index=5&ab_channel=EGATOR)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,13 +208,13 @@ I would like to thank https://www.youtube.com/watch?v=G-Cr00UYokU&list=RDCMUCL8l
 ## ❓ FAQ <a name="faq"></a>
 
 
-- **[Question_1]**
+- **What are the core requirements to do this project?**
 
-  - [Answer_1]
+  - Having a knowledge of ES6 and basic understanding of ReactJS, APIs, react-router.
 
-- **[Question_2]**
+- **What is the expected outcome of the project?**
 
-  - [Answer_2]
+  - Learn abut ReactJS, React components, React hooks, more on ES6, webpack and etc.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,7 +222,7 @@ I would like to thank https://www.youtube.com/watch?v=G-Cr00UYokU&list=RDCMUCL8l
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 

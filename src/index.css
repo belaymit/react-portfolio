@@ -154,6 +154,10 @@ img {
 }
 
 @media screen and (max-width: 600px) {
+  section {
+    width: 100%;
+  }
+
   h1 {
     font-size: 2.4rem;
   }

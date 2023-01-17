@@ -48,8 +48,13 @@
 }
 
 @media screen and (max-width: 600px) {
-  .portfolio-container {
+  .portfolio {
+    width: 100%;
+  }
+
+  .container.portfolio-container {
     gap: 1rem;
+    width: 100%;
   }
 
   .portfolio-container > div {

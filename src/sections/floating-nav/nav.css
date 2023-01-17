@@ -26,3 +26,11 @@
   background: rgba(26, 27, 27, 0.3);
   color: aquamarine;
 }
+
+@media screen and (max-width: 600px) {
+  .floating-nav {
+    background: red;
+    padding: 0;
+    left: 47%;
+  }
+}
