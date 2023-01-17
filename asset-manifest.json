@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f4c485f6.css",
+    "main.js": "/react-portfolio/static/js/main.edabe904.js",
+    "static/media/conference-front.PNG": "/react-portfolio/static/media/conference-front.a7c079a58ee370fe52bf.PNG",
+    "static/media/header-portfolio.jpg": "/react-portfolio/static/media/header-portfolio.f12d3b6d34278276fd44.jpg",
+    "static/media/conference-speakers.PNG": "/react-portfolio/static/media/conference-speakers.d195241d79189563b0bb.PNG",
+    "static/media/CV-Belay-BirhanuGibina.pdf": "/react-portfolio/static/media/CV-Belay-BirhanuGibina.bc1a32faf03c31a96f2e.pdf",
+    "static/media/conference-program.PNG": "/react-portfolio/static/media/conference-program.6364a9a9a14a7e6affaa.PNG",
+    "static/media/awesome-books.PNG": "/react-portfolio/static/media/awesome-books.e9e58624db168c00f2ca.PNG",
+    "static/media/leaderboard.PNG": "/react-portfolio/static/media/leaderboard.4c1879b4647cab0ba9a4.PNG",
+    "static/media/my-profile.jpg": "/react-portfolio/static/media/my-profile.c6285a666b0335eb8066.jpg",
+    "static/media/awesome-books-2.PNG": "/react-portfolio/static/media/awesome-books-2.6048fa17f7988b07e8ba.PNG",
+    "static/media/logo.PNG": "/react-portfolio/static/media/logo.180745a8eb7da62a834d.PNG",
+    "static/media/Time-Berners-Lee.jfif": "/react-portfolio/static/media/Time-Berners-Lee.9b160299a883dff2cf2f.jfif",
+    "static/media/Ariel-Camus.jfif": "/react-portfolio/static/media/Ariel-Camus.a2908ebd5a70080d10ca.jfif",
+    "static/media/Surgy-Brin.jfif": "/react-portfolio/static/media/Surgy-Brin.fd9feec65e99fbdae7af.jfif",
+    "static/media/Alan-Turing.jfif": "/react-portfolio/static/media/Alan-Turing.a02f84e8d979817a2825.jfif",
+    "index.html": "/react-portfolio/index.html",
+    "main.f4c485f6.css.map": "/react-portfolio/static/css/main.f4c485f6.css.map",
+    "main.edabe904.js.map": "/react-portfolio/static/js/main.edabe904.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4c485f6.css",
+    "static/js/main.edabe904.js"
+  ]
+}
